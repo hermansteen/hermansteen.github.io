@@ -3,7 +3,7 @@
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
 @import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
-@import url(http://weloveiconfonts.com/api/?family=brandico);
+@import url("https://weloveiconfonts.com/api/?family=brandico");
 
 * {
   margin: 0;
@@ -60,13 +60,13 @@ body {
   font-family: "Alegreya Sans", "Open Sans", Arial, Verdana, sans-serif;
   font-size: calc(1.2em + 6vw);
   font-weight: 100;
-  letter-spacing: 4vw;
+  letter-spacing: 2vw;
   margin-bottom: 5px;
   text-rendering: optimizeLegibility;
   color: white;
 }
 
-header h2 {
+#header h2 {
   margin: 0;
   text-align: center;
   vertical-align: middle;
@@ -75,7 +75,7 @@ header h2 {
 
   font-size: 2em;
   font-weight: 100;
-  letter-spacing: 3.25rem;
+  letter-spacing: 1.25rem;
   margin-bottom: 5px;
 
   text-rendering: optimizeLegibility;
