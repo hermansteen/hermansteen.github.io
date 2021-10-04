@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:1fr;
+}
+
+img {
+  max-width:500px;
+}
+
+#leftSide {
+  display:flex;
+  flex-direction: column;
+}
+
+button {
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+}
+
+#buttonWrapper {
+  margin-top:10px;
+  margin-left:10px;
+}
